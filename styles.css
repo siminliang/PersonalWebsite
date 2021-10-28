@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Varela Round', sans-serif;
+    background-color: dimgray;
+}
+
+
+a{
+    color: aliceblue;
+    width: 30px;
+}
+
+img {
+    max-width: 10rem;
+    max-height: 10rem;
+    border-radius: 50%;
+}
+
+.content{
+    float: right;
+    width: 80%;
+}
+.navbar{
+    float: left;
+    position: fixed;
+    width: 15%;
+    min-height: 100%;
+    top: 0%;
+    left:0%;
+    background-color: gray;
+}
