@@ -3,27 +3,33 @@
     <head>
         <meta charset="utf-8"/>
         <title>Resume</title>
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Varela+Round&display=swap" rel="stylesheet">
+        <!--icons-->
         <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet"/>
     </head>
     <body id="page-top">
         <!--Navigation-->
-        <nav>
+        <nav class="navbar">
             <a href="#page-top">
-                <span >Tina Liang</span>
-                <span><img src="img/kerry.PNG" alt="Profile-Picture"></span>
+                <span class="inv">Tina Liang</span>
+                <span><img class="pfimg" src="img/kerry.PNG" alt="Profile-Picture"></span>
             </a>
             <!--more nav-->
             <div>
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#education">Education</a></li>
+                <ul class="navbar-content">
+                    <li class="navbar-link"><a class="navbar-link" href="#about">About</a></li>
+                    <li class="navbar-link"><a class="navbar-link" href="#projects">Projects</a></li>
+                    <li class="navbar-link"><a class="navbar-link" href="#education">Education</a></li>
                 </ul>
             </div>
         </nav>
 
         <!--Page Content-->
-        <div>
+        <div class="content">
 
             <!-- About Me-->
             <section id="about">
